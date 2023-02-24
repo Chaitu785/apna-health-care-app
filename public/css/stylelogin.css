@@ -7,14 +7,30 @@
 body, html {
     height: 100%;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgb(97, 97, 97), rgb(0, 0, 0));
-    /*background: url(https://i.ytimg.com/vi/uwt2FLoYWe0/maxresdefault.jpg) no-repeat center center fixed;*/
+    background-image: url(../images/login.jpg);
+    background-color: #cccccc; 
+    /* height: 500px;  */
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 
 
+
 .card-container.card {
+    position: relative;
+    top: 100px;
     max-width: 350px;
     padding: 40px 40px;
+    background-color: transparent;
+    border-radius: 15px;
+    background: none;
+}
+
+.imgpers{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
 }
 
 .btn {
@@ -45,10 +61,11 @@ body, html {
 }
 
 .profile-img-card {
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 300px;
     margin: 0 auto 10px;
     display: block;
+    float: left;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 0%;

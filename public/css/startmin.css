@@ -18,6 +18,11 @@ body {
     min-height: 568px;
     min-height: 100%;
     background-color: #fff;
+    background-image: url("../images/hosp.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media(min-width:768px) {
@@ -27,6 +32,15 @@ body {
         padding: 25px 10px 0 10px;
         border-left: 1px solid #e7e7e7;
         min-height: 100%;
+
+  background-image: url("../images/hosp.png");
+
+  height: 100%;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     }
 }
 
@@ -125,6 +139,9 @@ body {
 
 .sidebar ul li a.active {
     background-color: #eee;
+}
+.sidebar ul li a.active:hover {
+    background-color: #e9a1a1;
 }
 
 .sidebar .arrow {
@@ -349,7 +366,7 @@ table.dataTable thead .sorting:after {
 .panel-red .panel-heading {
     border-color: #d9534f;
     color: #fff;
-    background-color: #d9534f;
+    background-color: #dc3939;
 }
 
 .panel-red a {
@@ -384,9 +401,9 @@ table.dataTable thead .sorting:after {
 }
 
 .panel-orange .panel-heading {
-    border-color: #e89106;
+    border-color: grey;
     color: #fff;
-    background-color: #e89106;
+    background-color: grey;
 }
 
 .panel-orange a {

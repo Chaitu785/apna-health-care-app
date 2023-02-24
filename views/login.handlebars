@@ -5,13 +5,19 @@
         <title>LoginPage</title>
         <link rel="stylesheet" href="/css/stylelogin.css">
         <link rel="stylesheet" href="/css/bootstrap.css" />
+        <link rel="stylesheet" href="/css/type.css" />
         <!-- <link rel="stylesheet" href="/css/style.css" /> -->
         <!-- <link rel="stylesheet" href="/css/login.css"> -->
     </head>
     <body>
         <div class="container-fluid">
+            <h1>
+  <a href="" class="typewrite" data-period="2000" data-type='[ "Welcome to Apna HealthCare", "Login Here" ]'>
+    <span class="wrap"></span>
+  </a>
+</h1>
             <div class="card card-container">
-                <img id="profile-img" class="profile-img-card" src="/images/bg.png" />
+                <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGUxZTIzZDBlYzI4NGFjYzYxMzhkNDA4ZTA5ZGY0OTA3YzVjNDYxYSZjdD1n/xK50YYJC0MIzx24DeS/giphy.gif" class="imgpers" alt="hello">
                 <p id="profile-name" class="profile-name-card"></p>
                 <form method="post" action="/login" class="form-signin">
                     <span id="reauth-email" class="reauth-email"></span>
@@ -22,4 +28,5 @@
             </div><!-- /card-container -->
         </div><!-- /container -->
     </body>
+    <script src="./type.js"></script>
 </html>

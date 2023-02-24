@@ -5713,8 +5713,8 @@ button.list-group-item-danger.active:focus {
   border-color: #337ab7;
 }
 .panel-primary > .panel-heading {
-  color: yellow;
-  background-color: #337ab7;
+  color: whitesmoke;
+  background-color: grey;
   border-color: #337ab7;
 }
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
