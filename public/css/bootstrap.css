@@ -4273,6 +4273,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 .navbar-brand>img {
+  
   float: left;
   height: 50px;
   padding: 0px;
@@ -5712,7 +5713,7 @@ button.list-group-item-danger.active:focus {
   border-color: #337ab7;
 }
 .panel-primary > .panel-heading {
-  color: #fff;
+  color: yellow;
   background-color: #337ab7;
   border-color: #337ab7;
 }
